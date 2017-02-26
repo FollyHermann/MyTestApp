@@ -28,7 +28,7 @@ if(isset($_GET['page']))
 			error_reporting(E_ALL & ~E_NOTICE);
 			if(empty($_GET['page']))
 			{
-				require_once("views/dashboard/dashboard.php");
+				header("Location: ?page=products");
 			}
 			else
 			{
