@@ -1,0 +1,7 @@
+Time : 01:11:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date_transaction' in 'field list'
+Raw SQL : UPDATE product SET code = "ART-0001", date_transaction = "17-02-25", type_transaction_id = "1", sell_price = "350", quantity = "25", notes = "", total = "8750" WHERE code = 'TRS-000025'
+
+Time : 01:09:48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_code' in 'field list'
+Raw SQL : UPDATE product SET code = "TRS-000024", product_code = "ART-0035", date_transaction = "17-02-25", type_transaction_id = "2", sell_price = "350", quantity = "-22", notes = "", total = "7700" WHERE code = 'TRS-000024'
